@@ -4,5 +4,5 @@ class Solution:
              return False
          else:
              return True
-
-          return(n%4!=0)
+The same if else logic can be implemented in a single return statement. Here the space complexity is lower.
+          return(n%4!=0) 
