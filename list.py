@@ -40,3 +40,10 @@ print(li[::-1])
 #         if(i+j==len(li)-1):
 #             d2+=li[i][j]
 # print(abs(d1-d2))
+
+#Rotate 90
+#li=[[1,2,3],[3,5,7],[9,10,11]]
+# for j in range(len(li[0])):
+#     for i in range(len(li)-1,-1,-1):
+#         print(li[i][j],end=' ')
+#     print()
