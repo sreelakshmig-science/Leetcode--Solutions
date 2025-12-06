@@ -54,3 +54,14 @@ for j in range(len(li)-1,-1,-1):
     for i in range(len(li[0])-1,-1,-1):
         print(li[j][i],end=' ')
     print()
+
+#palindrome
+s=input()
+flag=0
+for i in range(len(s)//2):
+    if(s[i]!=s[len(s)-i-1]):
+        flag=1232
+        print("Not a Palindrome")
+        break
+if(flag==0):
+    print("Palindrome")
