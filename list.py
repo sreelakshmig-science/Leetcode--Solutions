@@ -47,3 +47,10 @@ print(li[::-1])
 #     for i in range(len(li)-1,-1,-1):
 #         print(li[i][j],end=' ')
 #     print()
+
+#Rotate 180
+li=[[1,2,3],[3,5,7],[9,10,11]]
+for j in range(len(li)-1,-1,-1):
+    for i in range(len(li[0])-1,-1,-1):
+        print(li[j][i],end=' ')
+    print()
