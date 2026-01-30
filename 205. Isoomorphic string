@@ -1,0 +1,13 @@
+class Solution:
+    def isIsomorphic(self, s: str, t: str) -> bool:
+        if len(s)!=len(t): return False
+        li=[-1]*128
+        li2=[-1]*128
+
+        for i in range(len(s)):
+            if (li[ord(s[i])-97])!=(li2[ord(t[i])-97]):
+                return False
+            li[ord(s[i])-97]=i
+            li2[ord(t[i])-97]=i
+        return True
+        
