@@ -31,11 +31,11 @@
   #         x=x+1
   #     x=x-1
 
-# hallow rectangle
-# m=int(input())
-# l=int(input())
-# for i in range (1, m+1):
-#     if(i==1 or i==m):
-#         print('*'*l)
-#     else:
+  # hallow rectangle
+  # m=int(input())
+  # l=int(input())
+  # for i in range (1, m+1):
+  #     if(i==1 or i==m):
+  #         print('*'*l)
+  #     else:
 #         print('*' + " "*(l-2) + "*"
