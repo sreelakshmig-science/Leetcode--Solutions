@@ -7,8 +7,8 @@
   #         else:
   #             print(a,end="")
   #     print()
-# #The alphabet will be printed in "n" number of lines where each line will be updated with the alphabets.
-# #After z "a" will be repeated
+  # #The alphabet will be printed in "n" number of lines where each line will be updated with the alphabets.
+  # #After z "a" will be repeated
 
 # # n=int(input())
 # # j=n
